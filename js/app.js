@@ -5,6 +5,8 @@ sendBtn.addEventListener('click', ()=> {
     let numberPhone = document.querySelector('#tel').value;
 
     let url = `https://api.whatsapp.com/send?phone=${countryArea}${encodeURIComponent(numberPhone)}&text=${encodeURIComponent(messageWhatsapp)}`;
-
-    window.open(url);
+    
+    if(numberPhone != "") {
+        window.open(url);
+    }
 });
