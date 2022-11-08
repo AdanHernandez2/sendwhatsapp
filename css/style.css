@@ -109,7 +109,8 @@ p {
   transition:0.5s all ease;
 }
 @media (hover:hover) {
-  .btn:hover {
+  .btn:hover,
+  .btn:active {
     cursor:pointer;
     background-color: var(--btn);
     box-shadow:
@@ -118,7 +119,6 @@ p {
     31px 0px 80px 30px rgba(44, 188, 171, 0.14)
   ;
   }
-  
 }
 
 @media (max-width:420px) {
