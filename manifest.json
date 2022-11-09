@@ -1,6 +1,6 @@
 {
-    "name": "sendwhatsappmessage",
-    "short_name": "senwhatsappmessage",
+    "name": "SendWhatsapp",
+    "short_name": "SendWhatsapp",
     "description": "Envia mensajes de whatsapp a un numero que este fuera de tu lista de contactos.",
     "background_color": "#7f828cff",
     "theme_color": "#1e1f23ff",
