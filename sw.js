@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_sendwhatsappmessage',
+const CACHE_NAME = 'v0.0.2_cache:static',
   urlsToCache = [
     './',
     './css/style.css',
