@@ -120,11 +120,6 @@ p {
   ;
   }
 }
-.add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-}
 @media (max-width:420px) {
   .field {
     display:flex;
