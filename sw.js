@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v0.0.3_cache:static',
+const CACHE_NAME = 'v0.0.4_cache:static',
   urlsToCache = [
     './',
     './css/style.css',
